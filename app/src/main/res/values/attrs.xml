@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="WaterWave">
+
+        <attr name="waveHeight" format="integer" />
+        <attr name="wavelength" format="integer" />
+        <attr name="time" format="integer" />
+        <attr name="car" format="reference" />
+
+
+    </declare-styleable>
+</resources>

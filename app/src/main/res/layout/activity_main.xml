@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jack="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.study.jack.waterwave.MainActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal">
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_marginTop="100dp"
+     android:layout_height="200dp"
+     android:textSize="30sp"
+     android:text="冲浪的快感~~~~~"
+     android:layout_marginLeft="50dp"
+     android:textStyle="bold"
+     android:textColor="@color/colorAccent"
+     />
+ <ImageView
+     android:layout_width="wrap_content"
+     android:layout_height="200dp"
+     android:src="@drawable/sun"
+     android:layout_marginLeft="100dp"
+     />
+</LinearLayout>
+
+
+<com.study.jack.waterwave.WaterWave
+     android:id="@+id/waterWave"
+     android:layout_width="match_parent"
+     jack:waveHeight="220"
+     jack:time="3000"
+     jack:car="@drawable/chuan"
+     jack:wavelength="700"
+     android:layout_height="match_parent"
+     />
+
+
+</LinearLayout>
